@@ -75,7 +75,7 @@ const LoginPage = () => {
   return (
     <div className="md:min-h-screen flex p-[8%]">
       {/* Left Panel - Login/Register Form */}
-      <div className="w-full md:w-1/2 flex flex-col md:justify-center  md:px-10 px-6 md:py-12 py-8 bg-highlight/50 md:rounded-l-3xl rounded-3xl shadow-md">
+      <div className="w-full md:w-1/2 flex flex-col md:justify-center  md:px-10 px-6 md:py-12 py-8 bg-highlight/50 md:rounded-l-3xl rounded-l-3xl shadow-md">
         <div className="max-w-md mx-auto">
           <h2 className="md:text-3xl text-xl font-bold text-secondary mb-2">
             {isLogin ? "Hello, Welcome Back" : "Create Your Account"}
